@@ -1,0 +1,8 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+}
+
+.reviews__background {
+    background-image: url('/images/reviews.png');
+}

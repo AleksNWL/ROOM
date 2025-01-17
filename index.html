@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>ROOM</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
             </div>
         </div>
         <nav class="header__navigation">
-            <div class="header__logo"></div>
+            <img class="header__logo" src="images/room-logo.svg" alt="room-logo">
             <div class="header__container-navigation">
                 <div class="header__products">PRODUCTS</div>
                 <div class="header__explore">EXPLORE</div>
@@ -126,19 +127,45 @@
             <div class="reviews__container">
                 <img class="reviews__stars" src="/images/stars.svg" alt="Stars">
                 <h3 class="reviews__title">“Amazing private space to get work done.”</h3>
-                <img class="reviews__company" src="/images/company-google.png" alt="company-wayfair">
+                <img class="reviews__company" src="/images/company-wayfair.png" alt="company-wayfair">
             </div>
             <div class="reviews__container">
                 <img class="reviews__stars" src="/images/stars.svg" alt="Stars">
                 <h3 class="reviews__title">“Our booths are in constant use.”</h3>
-                <img class="reviews__company" src="/images/company-google.png" alt="company-flexport">
+                <img class="reviews__company" src="/images/company-flexport.png" alt="company-flexport">
             </div>
+            <h3 class="reviews__button">READ MORE REVIEWS</h3>
         </div>
-        <h3 class="reviews__button">READ MORE REVIEWS</h3>
     </section>
 
     <section class="description">
-        <div class="description__"></div>
+        <div class="description__container-main">
+            <p class="description__main-text">We take a human approach to a business-to-business industry, breaking the boundaries between corporate and personal, and rethinking every step of the user experience along the way.</p>
+            <p class="description__main-quote">We make work, work for you.</p>
+        </div>
+        <div class="description__container-definition">
+            <div class="description__container-definition-item">
+                <div class="description__text-field">
+                    <h3 class="description__title">We sell direct.</h3>
+                    <p class="description__text">We make extra room in the budget without compromising quality by selling direct. No middle man, and no additional construction required.</p>
+                </div>
+                <img class="description__image" src="/images/direct.png" alt="direct">
+            </div>
+            <div class="description__container-definition-item">
+                <div class="description__text-field">
+                    <h3 class="description__title">We build with purpose.</h3>
+                    <p class="description__text">We’re not just building another room with four walls, we’re building a more productive workspace. We design with you in mind, looking at every detail as an opportunity to enable a better working environment for everyone.</p>
+                </div>
+                <img class="description__image" src="/images/purpose.png" alt="purpose">
+            </div>
+            <div class="description__container-definition-item">
+                <div class="description__text-field">
+                    <h3 class="description__title">We design sustainably.</h3>
+                    <p class="description__text">From design to delivery, we strive to lessen our impact on the environment. Our products are engineered with recycled materials and replace multiple cycles of construction, minimizing noise and our footprint.</p>
+                </div>
+                <img class="description__image" src="/images/sustainably.png" alt="sustainably">
+            </div>
+        </div>
     </section>
 
     <section class="carousel-auto">
@@ -146,11 +173,66 @@
     </section>
 
     <section class="trial-version">
-
+        <h2 class="trial-version__title">100 day risk-free trial</h2>
+        <div class="trial-version__container-images">
+            <img class="trial-version__image" src="/images/shipping.svg" alt="shipping">
+            <img class="trial-version__image" src="/images/plugAndplay.svg" alt="plugAndplay">
+            <img class="trial-version__image" src="/images/returns.svg" alt="returns">
+        </div>
+        <div class="trial-version__button">GET A ROOM</div>
+        <div class="trial-version__text">Terms & Conditions <a class="trial-version__link" href="#">apply</a></div>
     </section>
 
     <footer class="footer">
-
+        <div class="footer__frame">
+            <img class="footer__logo" src="images/room-logo.svg" alt="room-logo">
+            <div class="footer__container-links">
+                <div class="footer__container-points">
+                    <h4 class="footer__title-points">About</h4>
+                    <ul class="footer__points">
+                        <li class="footer__point"><a class="footer__link" href="#">Compare</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Reviews</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Risk-Free Trial</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Careers</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Press</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Podcast</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer__container-points">
+                    <h4 class="footer__title-points">Support</h4>
+                    <ul class="footer__points">
+                        <li class="footer__point"><a class="footer__link" href="#">FAQ</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Booth Assembly</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Delivery</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Room Service</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Warranty</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Terms of Use</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Privacy Policy</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Copyright</a></li>
+                    </ul>
+                </div>
+                <div class="footer__container-points">
+                    <h4 class="footer__title-points">Showrooms</h4>
+                    <ul class="footer__points">
+                        <li class="footer__point"><a class="footer__link" href="#">New York</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">London</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">San Francisco</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Paris</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Copenhagen</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Zürich</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Los Angeles</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Berlin</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Belgium</a></li>
+                        <li class="footer__point"><a class="footer__link" href="#">Virtual Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer__container-points">
+                    <h4 class="footer__title-points">Office</h4>
+                    <p class="footer__text-adress">599 Broadway, FL 9 New York, NY 10012</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
