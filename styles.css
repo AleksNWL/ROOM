@@ -1,8 +1,109 @@
 body {
+    font-family: "Roboto", sans-serif;
     background-color: #FFF;
     margin: 0;
 }
 
-.reviews__background {
-    background-image: url('/images/reviews.png');
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.header {
+    
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: end;
+    background-color: #F4F4F4;
+    color: #AAA;
+    font-size: 12px;
+    line-height: 33px;
+}
+
+.header__navigation {
+    min-height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 250px;
+    align-items: center
+}
+
+.header__logo {
+    filter: brightness(0%);
+    width: 50px;
+    height: 100%;
+}
+
+.header__container-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.header__container-data {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header__point {
+    width: 20px;
+    height: 100%;
+}
+
+.header__cart {
+    width: 25px;
+    height: 100%;
+}
+
+
+.header__container-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.header__location {
+}
+
+.header__line {
+    border: 1px solid #E0E0E0;
+    margin-bottom: 50px;
+}
+
+.main {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.room {
+    margin-bottom: 80px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.design {
+    display: flex;
+    gap: 136px;
+    max-width: 1200px;
+    margin: 0 auto 210px;
+}
+
+.design__title {
+    padding-left: 55px;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.design__text {
+    padding-right: 85px;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #AAA;
 }
