@@ -294,15 +294,48 @@ h1, h2, h3, h4, h5, p {
 
 
 
+.trial-version {
+    display: grid;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    background-color: #F2F2F2;
+}
 
+.trial-version__title {
+    font-size: 46px;
+    line-height: 1.5;
+    padding: 64px 0px;
+}
 
+.trial-version__container-images {
+    display: flex;
+    gap: 66px;
+    padding-bottom: 70px;
+}
 
+.trial-version__button {
+    background-color: #46856E;
+    color: #FFF;
+    padding: 10px 24px;
+    margin-bottom: 24px;
+}
 
+.trial-version__text {
+    color: #AAA;
+    font-size: 12px;
+    padding-bottom: 24px;
+}
 
+.trial-version__link:hover {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.2;
+}
 
-
-
-
+.trial-version__link {
+    color: #4A4A4A;
+}
 
 .footer {
     background-color: #2B2B2B;
