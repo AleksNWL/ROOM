@@ -319,6 +319,7 @@ h1, h2, h3, h4, h5, p {
     color: #FFF;
     padding: 10px 24px;
     margin-bottom: 24px;
+    border-radius: 5px;
 }
 
 .trial-version__text {
@@ -338,5 +339,54 @@ h1, h2, h3, h4, h5, p {
 }
 
 .footer {
+    padding: 96px 0 50px;
     background-color: #2B2B2B;
+    color: #FFF;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer__frame {
+    max-height: 620px;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+}
+
+
+.footer__container-links {
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__points-title {
+    padding-bottom: 16px;
+}
+
+.footer__points {
+    list-style-type: none;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link:link, .footer__link:visited {
+    color: #FFF;
+}
+.footer__link:hover {
+    color: #dadada;
+}
+
+.footer__mailing-form-checkbox {
+    margin-left: -18px;
+}
+
+ul  {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
 }
